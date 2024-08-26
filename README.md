@@ -1,40 +1,28 @@
-# LiteCode Programlama Dili
+# LiteCode
 
-LiteCode, Ömer Dilek tarafından geliştirilen ve basitliği ile dikkat çeken bir programlama dilidir. Bu dil, özellikle kullanıcı dostu ve hızlı bir geliştirme deneyimi sunmayı amaçlar.
+LiteCode, basit ve verimli bir programlama dilidir. Kullanımı kolay ve etkili bir araç olarak, hem yeni başlayanlar hem de deneyimli geliştiriciler için ideal bir çözümdür.
 
-## Kullanım Alanları
+## İçerik
 
-LiteCode, geniş bir kullanım yelpazesine sahip olup, özellikle aşağıdaki alanlarda faydalıdır:
+Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki bağlantılardan her birine giderek farklı bölümlere erişebilirsiniz:
 
-- **Öğrenme ve Eğitim**: Basit sözdizimi ve anlaşılır komut yapısı sayesinde, yeni başlayanlar için ideal bir dil olabilir.
-- **Skripting ve Otomasyon**: Terminal tabanlı uygulamalarda hızlı ve etkili otomasyon skriptleri yazmak için kullanılır.
-- **Prototip Geliştirme**: Hızlı prototipler ve denemeler için kullanılabilir.
-- **Terminal Tabanlı Uygulamalar**: Terminalde renkli metinler ve koordinat bazlı yazılar ile kullanıcı arayüzleri oluşturmak için uygundur.
+- [Giriş](docs/introduction.md): LiteCode'un genel tanıtımı ve temel özellikleri hakkında bilgi.
+- [Kullanım Kılavuzu](docs/usage.md): LiteCode'u nasıl kullanacağınızı öğrenin, komutlar ve sözdizimi hakkında bilgiler.
+- [Komutlar ve Fonksiyonlar](docs/commands.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
+- [Örnekler](docs/examples.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
+- [Geliştirici Notları](docs/developer-notes.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.
+- [Lisans](docs/license.md): LiteCode'un lisans bilgileri ve kullanım şartları.
 
-## Özellikler
+## İndirme
 
-LiteCode dilinin öne çıkan bazı özellikleri şunlardır:
+LiteCode'u en son sürümüyle indirip kullanmaya başlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-- **Basit Sözdizimi**: Kullanıcıların hızlıca yazılım geliştirmelerini sağlayacak sade ve anlaşılır bir sözdizimi sunar.
-- **Renkli Terminal Çıktıları**: Metin ve arka plan renklerini ayarlama imkanı verir, bu sayede terminal çıktıları daha okunabilir ve estetik hale gelir.
-- **Koordinat Bazlı Yazı Yazma**: Terminalde belirli koordinatlara metin yazma yeteneği sunar, bu da daha dinamik ve kontrol edilebilir ekran çıktıları sağlar.
-- **Dosya İşlemleri**: Dosya okuma, yazma, düzenleme ve silme gibi temel dosya işlemleri desteklenir.
-- **Koşul ve Döngü Destekleri**: Programlarda koşul ifadeleri ve döngüler kullanılarak daha karmaşık mantıklar oluşturulabilir.
-- **Genişletilebilirlik**: Kullanıcılar, dilin sunduğu temel fonksiyonlar üzerinden daha karmaşık yapılar ve işlevler geliştirebilirler.
+- [LiteCode İndir](https://github.com/omer-dilek/litecode/releases/latest/download/litecode.zip)
 
-## Kullanım Örnekleri
+## İletişim
 
-LiteCode dilinin bazı temel komutları ve kullanımları şunlardır:
+Sorularınız veya geri bildirimleriniz için [iletişim](docs/contact.md) sayfasına göz atabilirsiniz. Size yardımcı olmaktan memnuniyet duyarız.
 
-```litecode
-# Metin ve renkli çıktı
-print <red>Bu metin kırmızı renkte<none>
+---
 
-# Terminalde koordinat bazlı metin ekleme
-insert 10 5 <blue>Bu metin mavi renkte ve 10, 5 koordinatında<none>
-
-# Klasör değiştirme
-cd yeni_klasor
-
-# Dosya okuma
-read dosya.txt 5
+Bu sayfa, LiteCode hakkında temel bilgileri sunmakta ve projenin çeşitli bölümlerine erişim sağlamaktadır. Başarılar dileriz!

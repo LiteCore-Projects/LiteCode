@@ -28,10 +28,10 @@ LiteCode dilinin bazı temel komutları ve kullanımları şunlardır:
 
 ```litecode
 # Metin ve renkli çıktı
-print "<red>Bu metin kırmızı renkte<none>"
+print <red>Bu metin kırmızı renkte<none>
 
 # Terminalde koordinat bazlı metin ekleme
-insert 10 5 "<blue>Bu metin mavi renkte ve 10, 5 koordinatında<none>"
+insert 10 5 <blue>Bu metin mavi renkte ve 10, 5 koordinatında<none>
 
 # Klasör değiştirme
 cd yeni_klasor

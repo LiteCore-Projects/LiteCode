@@ -8,20 +8,20 @@ Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki ba
 
 - [Giriş](docs/introduction-tr.md): LiteCode'un genel tanıtımı ve temel özellikleri hakkında bilgi.
 - [Kullanım Kılavuzu](docs/usage-tr.md): LiteCode'u nasıl kullanacağınızı öğrenin, komutlar ve sözdizimi hakkında bilgiler.
-- [Komutlar ve Fonksiyonlar](docs/commands.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
-- [Örnekler](docs/examples.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
-- [Geliştirici Notları](docs/developer-notes.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.
-- [Lisans](docs/license.md): LiteCode'un lisans bilgileri ve kullanım şartları.
+- [Komutlar ve Fonksiyonlar](docs/commands-tr.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
+- [Örnekler](docs/examples-tr.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
+- [Geliştirici Notları](docs/developer-notes-tr.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.
+- [Lisans](docs/license-tr.md): LiteCode'un lisans bilgileri ve kullanım şartları.
 
 ## İndirme
 
 LiteCode'u en son sürümüyle indirip kullanmaya başlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-- [LiteCode İndir](https://github.com/omer-dilek/litecode/releases/latest/download/litecode.zip)
+- [LiteCode İndir](https://github.com/omer-dilek/litecode/releases/latest/download/litecode.zip) yakında eklenecek
 
 ## İletişim
 
-Sorularınız veya geri bildirimleriniz için [iletişim](docs/contact.md) sayfasına göz atabilirsiniz. Size yardımcı olmaktan memnuniyet duyarız.
+Sorularınız veya geri bildirimleriniz için [iletişim](docs/contact-tr.md) sayfasına göz atabilirsiniz. Size yardımcı olmaktan memnuniyet duyarız.
 
 ---
 

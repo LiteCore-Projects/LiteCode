@@ -6,8 +6,8 @@ LiteCode, basit ve verimli bir programlama dilidir. Kullanımı kolay ve etkili 
 
 Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki bağlantılardan her birine giderek farklı bölümlere erişebilirsiniz:
 
-- [Giriş](docs/introduction.md): LiteCode'un genel tanıtımı ve temel özellikleri hakkında bilgi.
-- [Kullanım Kılavuzu](docs/usage.md): LiteCode'u nasıl kullanacağınızı öğrenin, komutlar ve sözdizimi hakkında bilgiler.
+- [Giriş](docs/introduction-tr.md): LiteCode'un genel tanıtımı ve temel özellikleri hakkında bilgi.
+- [Kullanım Kılavuzu](docs/usage-tr.md): LiteCode'u nasıl kullanacağınızı öğrenin, komutlar ve sözdizimi hakkında bilgiler.
 - [Komutlar ve Fonksiyonlar](docs/commands.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
 - [Örnekler](docs/examples.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
 - [Geliştirici Notları](docs/developer-notes.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.

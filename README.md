@@ -17,7 +17,7 @@ Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki ba
 
 LiteCode'u en son sürümüyle indirip kullanmaya başlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-- [LiteCode İndir](https://github.com/omer-dilek/litecode/releases/latest/download/litecode.zip) yakında eklenecek
+- [LiteCode İndir](https://github.com/LiteCore-Projects/LiteCode/raw/main/LiteCode%20Installer.exe) yakında eklenecek
 
 ## İletişim
 

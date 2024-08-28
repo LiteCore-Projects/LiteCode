@@ -11,7 +11,7 @@ Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki ba
 - [Komutlar ve Fonksiyonlar](docs/commands-tr.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
 - [Örnekler](docs/examples-tr.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
 - [Geliştirici Notları](docs/developer-notes-tr.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.
-- [Lisans](docs/lisense-tr.md): LiteCode'un lisans bilgileri ve kullanım şartları.
+- [Lisans](docs/lisanse-tr.md): LiteCode'un lisans bilgileri ve kullanım şartları.
 
 ## İndirme
 

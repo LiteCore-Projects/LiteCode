@@ -7,7 +7,7 @@ LiteCode, basit ve verimli bir programlama dilidir. Kullanımı kolay ve etkili 
 Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki bağlantılardan her birine giderek farklı bölümlere erişebilirsiniz:
 
 - [Giriş](docs/introduction-tr.md): LiteCode'un genel tanıtımı ve temel özellikleri hakkında bilgi.
-- [Kullanım Kılavuzu](docs/usage-tr.md): LiteCode'u nasıl kullanacağınızı öğrenin, komutlar ve sözdizimi hakkında bilgiler.
+- [Kurulum Rehberi](https://github.com/LiteCore-Projects/LiteCode/blob/main/docs/how-to-install-tr.md) Nasıl kurulacağı hakkında bilgi edinin (linux'da nasıl kullanılır?)
 - [Komutlar ve Fonksiyonlar](docs/commands-tr.md): LiteCode'da mevcut komutlar ve fonksiyonlar hakkında detaylı açıklamalar.
 - [Örnekler](docs/examples-tr.md): LiteCode kullanarak nasıl çeşitli görevleri gerçekleştirebileceğinizi gösteren örnekler.
 - [Geliştirici Notları](docs/developer-notes-tr.md): LiteCode'un geliştirilmesi ve katkıda bulunma hakkında bilgiler.
@@ -18,7 +18,7 @@ Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki ba
 LiteCode'u en son sürümüyle indirip kullanmaya başlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
 - [LiteCode İndir](https://github.com/LiteCore-Projects/LiteCode/raw/main/LiteCode%20Installer.exe) Doğrudan kurulum sihirbazını indirin
-- [Kurulum Rehberi](https://github.com/LiteCore-Projects/LiteCode/blob/main/docs/how-to-install-tr.md) Nasıl kurulacağı hakkında bilgi edinin (linux'da nasıl kullanılır?)
+- [Kaynak Kodunu İndir](https://github.com/LiteCore-Projects/LiteCode/raw/main/source/litecode.py) LiteCode'un kaynak kodunu elde edin
 
 ## İletişim
 

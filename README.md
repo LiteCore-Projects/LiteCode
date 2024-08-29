@@ -17,7 +17,8 @@ Bu sayfada LiteCode hakkında detaylı bilgiye ulaşabilirsiniz. Aşağıdaki ba
 
 LiteCode'u en son sürümüyle indirip kullanmaya başlamak için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-- [LiteCode İndir](https://github.com/LiteCore-Projects/LiteCode/raw/main/LiteCode%20Installer.exe) yakında eklenecek
+- [LiteCode İndir](https://github.com/LiteCore-Projects/LiteCode/raw/main/LiteCode%20Installer.exe) Doğrudan kurulum sihirbazını indirin
+- [Kurulum Rehberi](https://github.com/LiteCore-Projects/LiteCode/blob/main/docs/how-to-install-tr.md) Nasıl kurulacağı hakkında bilgi edinin (linux'da nasıl kullanılır?)
 
 ## İletişim
 

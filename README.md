@@ -1,5 +1,5 @@
 # LiteCode
-
+Proje 2023 yılında Ömer Dilek tarafından geliştirilmeye başlanmıştır. Geliştirici ekibi tek kişiyle sınırlıdır ve proje, programlamayı basit hale getirmek ve çok amaçlı kullanabilmek amacıyla geliştirilmiştir. LiteCode, pek çok programlama dilinde mevcut olmayan bazı özelliklere sahiptir. Örneğin, terminal ekranına renkli yazı yazdırmak gibi. Diğer programlama dillerinde bunun için fonksiyonlar veya kütüphaneler gerekmekte, ancak LiteCode ile tek satır kodda bunu gerçekleştirebilirsiniz. Ayrıca, terminalde belirli koordinatlara metin yazmak gibi işlemleri de destekler.
 LiteCode, basit ve verimli bir programlama dilidir. Kullanımı kolay ve etkili bir araç olarak, hem yeni başlayanlar hem de deneyimli geliştiriciler için ideal bir çözümdür.
 
 ## İçerik

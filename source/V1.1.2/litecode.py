@@ -3,6 +3,8 @@ import pathlib
 import platform
 from sys import exception
 
+from pygame.event import clear
+
 sistem = platform.system()
 if sistem == "Windows":
         pass
@@ -501,14 +503,20 @@ class litecode():
                 yenicumle = ""
                 kelimeler = args.split(" ")
                 for kelime in kelimeler:
-                    if kelime not in {"not", "and", "or", "==", "!=", "<", ">", "<=", ">="} and not kelime.isnumeric():
+                    if kelime not in {"not", "and", "or", "==", "!=", "<", ">", "<=", ">="} and not kelime.isnumeric() and not kelime.startswith("$"):
                         yenicumle += f'"{kelime}" '
                     else:
-                        yenicumle += f'{kelime} '
+                        if kelime.startswith("$"):
+                            degisken = kelime[1:]
+                            if not str(variables[degisken]).isnumeric():
+                                yenicumle += f'"{kelime}" '
+                            else:
+                                yenicumle += f'{kelime} '
+                        else:
+                            yenicumle += f'{kelime} '
                 args = yenicumle
                 argsdo()
                 ifkosul = args
-
 
             elif komut == "math":
                 argsdo()
@@ -539,11 +547,12 @@ class litecode():
                 temp_dosyalari_sil()
                 exit(0)
             elif komut == "random":
-                args = f"{satir[1]} {satir[2]}"
                 argsdo()
-                rtemp = args.split()
-                rand = random.randint(int(rtemp[0]), int(rtemp[1]))
-                variables["random"] = rand
+                arg = args.split(" ")
+                rand_least = int(arg[0])
+                rand_max = int(arg[1])
+                rand = random.randint(rand_least, rand_max)
+                variables["random"] = int(rand)
             elif komut in {"delete", "sil"}:
                 argsdo()
                 os.remove(args)

@@ -3,7 +3,7 @@ import pathlib
 import platform
 from sys import exception
 
-from pygame.event import clear
+#from pygame.event import clear
 
 sistem = platform.system()
 if sistem == "Windows":
@@ -41,7 +41,7 @@ loop = "false"
 directory = os.getcwd()
 first_directory = directory
 variables = {
-    'lc_version': '1.1.2',
+    'lc_version': '1.1.3',
     'i': '0',
     'term_startup': '0',
     'directory': directory,
@@ -416,8 +416,10 @@ class litecode():
             dongu = dongu + 1
             satir = lines[current_line]
             if sistem == "Windows":
-                def ctrl_c_handler(signal):
-                    print("\nCtrl+C tuş kombinasyonu algılandı. Program kapatılıyor.")
+                def ctrl_c_handler(signal, olay):
+                    bitis_zamani = time.perf_counter()
+                    gecen_sure = bitis_zamani - baslangic_zamani
+                    print(f"{dongu} satır kod {gecen_sure:.4f} saniyede işlendi.")
                     exit(0)
 
                 signal.signal(signal.SIGINT, ctrl_c_handler)
@@ -449,8 +451,8 @@ class litecode():
             variables["time_mon"] = ttime.tm_mon
             variables["time_year"] = ttime.tm_year
             term_columns, term_lines = terminal_boyutlarini_al()
-            variables['term_col'] = term_columns
-            variables['term_lin'] = term_lines
+            variables['term_col'] = int(term_columns)
+            variables['term_lin'] = int(term_lines)
             #lc dosyası argümanları elde etme
             for i, arg in enumerate(app_args, start=1):
                 variables[f"%{i}"] = arg
@@ -495,7 +497,6 @@ class litecode():
                         var_value = int(eval(setarg[1].strip()))
                     except (ValueError, TypeError):
                         var_value = str(eval(setarg[1].strip()))
-
                     variables[setarg[0].strip()] = var_value
                 else:
                     variables[setarg[0].strip()] = setarg[1].strip()
@@ -503,12 +504,17 @@ class litecode():
                 yenicumle = ""
                 kelimeler = args.split(" ")
                 for kelime in kelimeler:
-                    if kelime not in {"not", "and", "or", "==", "!=", "<", ">", "<=", ">="} and not kelime.isnumeric() and not kelime.startswith("$"):
+                    if kelime not in {"not", "and", "or", "==", "!=", "<", ">", "<=", ">="} and not kelime.isnumeric() and not kelime.startswith("$") and not kelime.startswith("-"):
                         yenicumle += f'"{kelime}" '
+                    elif kelime in {"not", "and", "or", "==", "!=", "<", ">", "<=", ">="}:
+                        yenicumle += f'{kelime} '
                     else:
                         if kelime.startswith("$"):
                             degisken = kelime[1:]
-                            if not str(variables[degisken]).isnumeric():
+                            deger = str(variables[degisken])
+                            if deger.startswith("-") and str(deger[1:]).isnumeric():
+                                yenicumle += f'{kelime} '
+                            elif not str(variables[degisken]).isnumeric():
                                 yenicumle += f'"{kelime}" '
                             else:
                                 yenicumle += f'{kelime} '

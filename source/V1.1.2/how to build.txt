@@ -1,6 +1,6 @@
 this interpreter made by Ömer Dilek
 github: https://github.com/LiteCore-Projects/LiteCode
-youtube: https://www.youtube.com/@lreaxx
+youtube: https://www.youtube.com/@%C3%96MER_D%C4%B0LEK/
 
 if you want make a custom build
 ->python make_build.py build
